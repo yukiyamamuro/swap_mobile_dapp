@@ -93,6 +93,7 @@ describe("Swap Contract", function () {
       const ethAmountAfter = ethers.utils.formatEther(
         await EthToken.balanceOf(addr1.address)
       );
+
       console.log(`After transfer, address_1 has ${ethAmountAfter} ETH`);
     });
   });
